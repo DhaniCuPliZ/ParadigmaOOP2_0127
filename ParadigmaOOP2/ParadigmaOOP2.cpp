@@ -1,10 +1,11 @@
 #include <iostream>
 using namespace std;
 
-#include <iostream>
-
-int main()
-{
-    std::cout << "Hello World!\n";
-}
+class seseorang {
+public:
+    virtual void pesan() = 0;
+    /* virtual void pesan(){
+    cout << "pesan dari seseorang" << endl;
+    } */
+};
 
